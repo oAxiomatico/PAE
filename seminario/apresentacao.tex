@@ -1,0 +1,130 @@
+\documentclass[aspectratio=169,11pt]{beamer}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+% Texto em português; sem hifenização automática para manter compilação mínima.
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\usepackage{lmodern,amsmath,amssymb}
+\usetheme{Madrid}
+\definecolor{principal}{HTML}{164E63}
+\setbeamercolor{structure}{fg=principal}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{footline}[frame number]
+\newcommand{\fonte}[1]{\par\vfill{\tiny\color{gray}Fonte: #1}}
+\title{Didática na matemática e computação}
+\subtitle{Do conteúdo à compreensão: decisões para o ensino superior}
+\author{Grupo de seminário -- cinco integrantes}
+\institute{SMA 5839 -- Preparação Pedagógica}
+\date{}
+\begin{document}
+% Slide 1
+\begin{frame}{Por que acertar não basta?}
+Um estudante aplica uma fórmula corretamente. Outro executa um programa que passa nos exemplos.\par\medskip
+\begin{alertblock}{Pergunta de abertura}Que evidência temos de que compreenderam o que fizeram?\end{alertblock}
+\medskip Objetivo: relacionar fundamentos didáticos, especificidades das áreas e decisões concretas de ensino.
+\fonte{Síntese e pergunta elaboradas para o seminário.}
+\end{frame}
+% Slide 2
+\begin{frame}{O percurso: cinco vozes, uma pergunta}
+\begin{enumerate}\item Didática: finalidades, conteúdo e mediação.\item Matemática: problemas, erros e demonstração.\item Computação: abstração, execução e explicação.\item Uma atividade que aproxima as áreas.\item Avaliação, tecnologia e síntese.\end{enumerate}\medskip Meta: 35 minutos, incluindo uma breve participação da turma.
+\fonte{Organização proposta pelo grupo.}
+\end{frame}
+% Slide 3
+\begin{frame}{Didática: decisões com finalidade}
+\begin{itemize}\item O que ensinar e para quê?\item O que os estudantes já sabem?\item Que tarefa permite aprender o conteúdo?\item Como o professor acompanha e intervém?\item Que evidência permite avaliar a aprendizagem?\end{itemize}\begin{block}{Ideia central}Métodos fazem sentido em relação aos objetivos, conteúdos e condições de ensino.\end{block}
+\fonte{Libâneo (2013), capítulos sobre didática, métodos e planejamento.}
+\end{frame}
+% Slide 4
+\begin{frame}{Uma decisão didática coerente}
+\begin{description}\item[Objetivo] Justificar por que um procedimento funciona.\item[Atividade] Comparar duas soluções e explicitar suas hipóteses.\item[Mediação] Pedir um contraexemplo e discutir os argumentos.\item[Avaliação] Resolver uma variação e justificar a resposta.\end{description}\medskip Se a meta é argumentar, avaliar apenas o resultado oferece evidência insuficiente.
+\fonte{Proposta do grupo, em diálogo com Libâneo (2013).}
+\end{frame}
+% Slide 5
+\begin{frame}{O currículo orienta; o plano concretiza}
+\begin{itemize}\item Matemática: clareza de expressão, rigor, resolução de problemas e relações com outras áreas.\item Computação: fundamentos, resolução crítica e criativa de problemas e atuação cooperativa.\item O projeto pedagógico articula perfil, competências, conteúdos e avaliação.\end{itemize}\begin{alertblock}{Cuidado}Diretrizes curriculares não são receitas de aula nem evidência de eficácia de um método.\end{alertblock}
+\fonte{Parecer CNE/CES 1.302/2001, itens 1--3; Res. 3/2003, art. 2; Parecer 136/2012; Res. 5/2016, arts. 2--4.}
+\end{frame}
+% Slide 6
+\begin{frame}{Matemática: do exemplo à validade geral}
+\begin{itemize}\item Explorar exemplos ajuda a formular conjecturas.\item Representações numéricas, gráficas e simbólicas iluminam aspectos distintos.\item Uma conjectura exige validação: muitos exemplos não constituem demonstração.\end{itemize}\begin{block}{Exemplo}Os primeiros números ímpares somam quadrados. Como justificar que isso vale para todo $n\geq1$?\end{block}
+\fonte{Alves (2011), aulas 3--5. Exemplo e adaptação ao ensino superior: grupo.}
+\end{frame}
+% Slide 7
+\begin{frame}{Transposição didática: preservar o sentido}
+\begin{itemize}\item O conhecimento é reorganizado para se tornar objeto de ensino.\item Selecionar linguagem, exemplos e progressão envolve escolhas.\item Simplificar exige cuidado para não apagar hipóteses e justificativas.\end{itemize}\begin{exampleblock}{No ensino de limites}A exploração gráfica pode preparar uma definição formal; a imagem, sozinha, não substitui suas condições.\end{exampleblock}
+\fonte{Alves (2011), aula 1, tópico 2. Aplicação a limites: grupo.}
+\end{frame}
+% Slide 8
+\begin{frame}{O erro como informação para ensinar}
+\begin{block}{Resposta de um estudante}$(a+b)^2=a^2+b^2$.\end{block}\begin{itemize}\item Pedir uma explicação antes de classificar o erro.\item Testar $a=b=1$: que conflito aparece?\item Reconstruir pela distributividade ou pela área de um quadrado.\item Propor outra expressão para verificar a compreensão.\end{itemize}\medskip Um erro isolado não basta para diagnosticar um obstáculo epistemológico.
+\fonte{Alves (2011), aulas 2--3; intervenção e exemplo: grupo.}
+\end{frame}
+% Slide 9
+\begin{frame}{Explorar, comunicar, validar, sistematizar}
+\begin{enumerate}\item Estudantes investigam uma situação.\item Explicam estratégias e confrontam respostas.\item Justificam ou refutam as conclusões.\item O professor organiza conceitos e conecta ao saber matemático.\end{enumerate}\begin{alertblock}{Papel docente}Autonomia do estudante requer uma situação planejada e intervenção criteriosa.\end{alertblock}
+\fonte{Síntese adaptada de Alves (2011), aulas 4--5, sobre situações didáticas e a-didáticas.}
+\end{frame}
+% Slide 10
+\begin{frame}{Computação: executar não é explicar}
+\begin{itemize}\item Distinguir problema, modelo, algoritmo e implementação.\item Rastrear estados torna o processo de execução discutível.\item Testes examinam casos; argumentos de correção tratam das condições gerais.\item Explicar escolhas e limites integra a formação técnica.\end{itemize}\medskip Ensinar computação envolve conceitos, processos e consequências sociais.
+\fonte{Res. CNE/CES 5/2016, arts. 4--5; SBC (2025). Tradução para tarefas: grupo.}
+\end{frame}
+% Slide 11
+\begin{frame}{Uma tarefa de programação com mediação}
+\begin{description}\item[Antes de executar] Prever o resultado e registrar o raciocínio.\item[Durante] Comparar previsão, rastreamento e saída.\item[Em dupla] Um explica a estratégia; outro procura um caso que a desafie.\item[Depois] Modificar a entrada e justificar o comportamento.\end{description}\medskip A tarefa pode ser feita no papel: o computador não é pré-requisito para discutir o algoritmo.
+\fonte{Proposta do grupo, em diálogo com Libâneo (2013) e Res. 5/2016.}
+\end{frame}
+% Slide 12
+\begin{frame}{Desafios da área: contexto, não receita}
+\begin{itemize}\item O relatório da SBC projeta uma agenda para 2025--2035.\item Formação, inclusão e transformações tecnológicas exigem reflexão sobre o ensino.\item Uma agenda de desafios não demonstra que uma estratégia específica funciona em toda turma.\end{itemize}\begin{block}{Decisão local}Considerar conhecimentos prévios, acesso a recursos e necessidades dos estudantes ao planejar tarefas.\end{block}
+\fonte{SBC (2025), Grandes desafios da Educação em Computação no Brasil; implicação didática: grupo.}
+\end{frame}
+% Slide 13
+\begin{frame}{Atividade: a soma dos primeiros ímpares}
+Considere o algoritmo, para um inteiro $n\geq1$:
+\begin{center}\begin{tabular}{l}\texttt{s = 0}\\\texttt{para k de 1 até n:}\\\quad\texttt{s = s + (2*k - 1)}\\\texttt{devolva s}\end{tabular}\end{center}
+\begin{enumerate}\item Que resultado ele devolve para $n=4$?\item E para qualquer $n\geq1$?\item Como convencer alguém sem executar todos os casos?\end{enumerate}
+\fonte{Atividade autoral do grupo; articulação com Alves (2011), aulas 3--5.}
+\end{frame}
+% Slide 14
+\begin{frame}{Uma pausa para pensar e comparar}
+\begin{block}{90 segundos, incluídos no tempo}\begin{itemize}\item 30 s: pensar individualmente.\item 30 s: comparar com alguém ao lado.\item 30 s: ouvir uma justificativa da turma.\end{itemize}\end{block}\medskip Pergunta de mediação: \textbf{a justificativa vale para qualquer entrada permitida ou apenas para os exemplos?}
+\fonte{Dinâmica proposta pelo grupo; sem atribuição a um estudo empírico.}
+\end{frame}
+% Slide 15
+\begin{frame}{Três caminhos para a mesma relação}
+\begin{columns}[T]\column{.46\textwidth}\textbf{Exploração}\[\begin{array}{c|rrrr}n&1&2&3&4\\\hline S_n&1&4&9&16\end{array}\]\textbf{Conjectura}\[S_n=n^2\]\column{.5\textwidth}\textbf{Validação}\[S_{n+1}=S_n+2n+1\]\[=n^2+2n+1=(n+1)^2.\]Base: $S_1=1$. A indução conclui para todo $n\geq1$.\end{columns}\medskip Geometricamente: acrescentar uma borda de $2n+1$ unidades transforma um quadrado de lado $n$ em um de lado $n+1$.
+\fonte{Desenvolvimento matemático do grupo.}
+\end{frame}
+% Slide 16
+\begin{frame}{Do argumento matemático à correção}
+\begin{itemize}\item Após a iteração $k$, a soma acumulada é $k^2$.\item Antes da primeira iteração: $s=0=0^2$.\item Se antes da iteração $k$ temos $(k-1)^2$, somar $2k-1$ produz $k^2$.\item Ao terminar em $k=n$, o resultado é $n^2$.\end{itemize}\begin{alertblock}{Hipóteses}Inteiros sem limite de representação e laço inclusivo. Em uma implementação real, considerar limites numéricos.\end{alertblock}
+\fonte{Análise autoral do grupo; exemplo de articulação entre demonstração e algoritmo.}
+\end{frame}
+% Slide 17
+\begin{frame}{O que avaliar nessa atividade?}
+\begin{tabular}{p{.27\textwidth}p{.63\textwidth}}\textbf{Critério}&\textbf{Evidência esperada}\\\hline Execução&Rastreamento correto para $n=4$.\\ Generalização&Conjectura explícita $S_n=n^2$.\\ Justificativa&Argumento geral com hipóteses e base.\\ Transferência&Explicação do que muda ao somar pares.\end{tabular}\par\medskip Devolutiva: indicar a lacuna e permitir revisão da justificativa.
+\fonte{Rubrica proposta pelo grupo; fundamentos de avaliação: Libâneo (2013), capítulo sobre avaliação escolar.}
+\end{frame}
+% Slide 18
+\begin{frame}{Tecnologia e condições de aprendizagem}
+\begin{itemize}\item Borba discute produção de conhecimento em coletivos de humanos-com-mídias.\item A pandemia evidencia o papel das condições materiais e das desigualdades de acesso.\item Recursos digitais participam da atividade; sua presença não garante compreensão.\end{itemize}\begin{block}{Aplicação proposta}Oferecer a tarefa também em papel, explicitar a notação e disponibilizar material legível antes da aula.\end{block}
+\fonte{Borba (2021), pp. 385--400. Aplicações de acessibilidade: propostas do grupo.}
+\end{frame}
+% Slide 19
+\begin{frame}{Planejar é decidir e revisar}
+\begin{enumerate}\item Definir uma aprendizagem observável.\item Investigar conhecimentos prévios.\item Selecionar um problema e suas representações.\item Planejar perguntas, recursos e alternativas de participação.\item Recolher evidências e ajustar a intervenção.\end{enumerate}\medskip Matemática e computação compartilham a busca por justificativas, mas preservam objetos e práticas específicos.
+\fonte{Síntese do grupo a partir de Libâneo (2013), Alves (2011) e documentos curriculares.}
+\end{frame}
+% Slide 20
+\begin{frame}{Retomando a pergunta inicial}
+\begin{block}{Como saber se houve compreensão?}Pedir que o estudante explique, justifique, confronte um erro e transfira o que aprendeu para outra situação.\end{block}\medskip\textbf{Para discutir:} em uma disciplina que você poderia ensinar, que tarefa distinguiria reprodução de compreensão?\medskip\par Esta apresentação propõe decisões didáticas contextualizadas; não estabelece uma metodologia universal.
+\fonte{Síntese autoral do grupo.}
+\end{frame}
+\begin{frame}{Referências: fundamentos e debates}
+\small \begin{itemize}\item LIBÂNEO, José Carlos. \textit{Didática}. 2. ed. São Paulo: Cortez, 2013.\item ALVES, Francisco Régis Vieira. \textit{Didática da Matemática}. Fortaleza: UAB/IFCE, 2011.\item BORBA, Marcelo C. The future of mathematics education since COVID-19: humans-with-media or humans-with-non-living-things. \textit{Educational Studies in Mathematics}, 108, 385--400, 2021. DOI: 10.1007/s10649-021-10043-2.\item SOCIEDADE BRASILEIRA DE COMPUTAÇÃO. \textit{Grandes desafios da Educação em Computação no Brasil 2025--2035}. Porto Alegre: SBC, 2025.\end{itemize}
+\end{frame}
+\begin{frame}{Referências: documentos curriculares}
+\small \begin{itemize}\item BRASIL. CNE/CES. \textit{Parecer nº 1.302/2001}: Diretrizes Curriculares Nacionais para os Cursos de Matemática, Bacharelado e Licenciatura.\item BRASIL. CNE/CES. \textit{Resolução nº 3, de 18 de fevereiro de 2003}: Diretrizes Curriculares para os cursos de Matemática.\item BRASIL. CNE/CES. \textit{Parecer nº 136/2012}: Diretrizes Curriculares Nacionais para os cursos de graduação em Computação.\item BRASIL. CNE/CES. \textit{Resolução nº 5, de 16 de novembro de 2016}: Diretrizes Curriculares Nacionais para os cursos de graduação na área da Computação.\end{itemize}\medskip\footnotesize Documentos analisados como fornecidos no repositório; não foi realizada revisão da legislação superveniente.
+\end{frame}
+\end{document}
